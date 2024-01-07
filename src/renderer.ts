@@ -25,6 +25,5 @@
  *  });
  * ```
  */
-
-import './index.css';
+import './normalize.css';
 import './main';

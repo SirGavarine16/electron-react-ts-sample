@@ -1,0 +1,57 @@
+.basicNotification {
+    &__container {
+        background-color: #0984e3;
+        color: #f5f6fa;
+        max-width: 95%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 0.5rem;
+
+        h2 {
+            margin: 0;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px white solid;
+        }
+    }
+
+    &__form-wrapper {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        input {
+            width: 100%;
+            outline: none;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: none;
+        }
+
+        button {
+            background-color: #00a8ff;
+            color: #f5f6fa;
+            width: 18%;
+            border: #0097e6 1px solid;
+            border-radius: 0.5rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in;
+            padding: 0.5rem;
+        }
+
+        button:hover {
+            background-color: #192a56;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 0.25rem;
+            color: #0c2461;
+        }
+    }
+
+    &__input-wrapper {
+        width: 80%;
+    }
+}
